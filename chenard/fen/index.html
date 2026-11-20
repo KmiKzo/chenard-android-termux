@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Forsyth-Edwards Notation display tool</title>
+    <link rel="stylesheet" href="fentool.css">
+</head>
+<body>
+
+<div>
+    <label for="TextBoxFen">FEN:</label>
+    <input type="text" value="" id="TextBoxFen" size="60" class="FenEditBox">
+    <input type="button" value="Display" id="ButtonDisplay">
+</div>
+
+<div id="DivErrorText" style="height:2em;"></div>
+
+<div style="position:relative;">
+    <input type="button" value="Rotate" id="ButtonRotate" style="position:absolute; left:41px;">
+    <input type="button" value="Reset" id="ButtonReset" style="position:absolute; left:189px;">
+    <input type="button" value="Clear" id="ButtonClear" style="position:absolute; left:344px;">
+</div>
+
+<div id="DivBoard" style="width:352px; height:352px; background-color: beige; position:relative; left:40px; top:35px;"></div>
+
+<img src="http://cosinekitty.com/contact.png" width="181" height="54" style="position:relative; left:126px; top:68px;">
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="fen.js"></script>
+<script src="ui.js"></script>
+</body>
+</html>

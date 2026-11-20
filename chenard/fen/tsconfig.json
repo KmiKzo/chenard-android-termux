@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+      "removeComments": false,
+      "sourceMap": true
+  },
+
+  "files": [
+    "fen.ts",
+    "ui.ts"
+  ]
+}
